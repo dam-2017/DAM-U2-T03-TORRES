@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var cadenas_1 = require("./cadenas");
+var operaciones_1 = require("./operaciones");
+var cadena = new cadenas_1.Cadena("Natalie Beckett ttekceB eilataN");
+console.log("Total de Palabras: ", cadena.numpal);
+console.log("Total de letras: ", cadena.numlet);
+console.log("¿Es palindromo? ", cadena.pali);
+var ope = new operaciones_1.Opera();
+console.log("*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*");
+console.log("Suma: " + ope.suma(28, 2));
+console.log("Resta: " + ope.resta(28, 2));
+console.log("Factorial: " + ope.factorial(28));
+console.log("¿Es primo?: " + ope.primo(28));
